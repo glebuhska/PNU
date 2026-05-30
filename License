@@ -1,0 +1,41 @@
+Personal PNU License (PPL)
+
+Copyright (c) 2026, [PNU / Glebuhska]
+
+This license regulates the
+use of the "PNU" software. By downloading, copying, or modifying
+this Project, you automatically agree to these terms:
+
+Disclaimer of
+liability: The Project is provided "AS IS". The authors do
+not bear responsibility for any damage to equipment, data loss,
+system failures, or any other losses resulting from the use,
+installation, or testing of this Project. All responsibility for any
+consequences lies solely with the user.
+
+Liability for forks: The
+authors do not bear responsibility for any changes, forks (branches),
+or modifications to the Project made by third parties. The
+use of third-party forks is carried out by the user
+at their own risk.
+
+Mandatory disclosure (Copyleft clause): Any project
+using source code created by PNU (or its parts) within
+its composition must provide the source code of this part
+of the project in the public domain under a license
+compatible with PPL, or under PPL. This rule applies to
+all derivative works without exceptions.
+
+Protection of brand and authorship:
+You do not have the right to pass off the
+PNU Project as your own development. Any derivative works must
+contain a clear indication that they are based on the
+original PNU code. It is prohibited to use the name
+"PNU" for marketing purposes that are misleading regarding authorship or
+the official status of the product.
+
+Educational status: The Project
+is exclusively of a research and educational nature. It is
+not intended for use in critical infrastructure, commercial products, or
+systems where reliable operation is expected. The authors do not
+guarantee the suitability of the Project for any specific purpose.
