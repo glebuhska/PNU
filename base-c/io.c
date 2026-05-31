@@ -1,7 +1,4 @@
 #include "io.h"
-
-// --- Системные вызовы (статические) ---
-
 static inline long sys_write(int fd, const char *buf, size_t count) {
     long ret;
     __asm__ volatile ("syscall" : "=a" (ret) : "a" (1), "D" (fd), "S" (buf), "d" (count) : "rcx", "r11", "memory");
@@ -25,9 +22,6 @@ static inline long sys_ioctl(int fd, unsigned long req, void *arg) {
     __asm__ volatile ("syscall" : "=a" (ret) : "a" (16), "D" (fd), "S" (req), "d" (arg) : "rcx", "r11", "memory");
     return ret;
 }
-
-// --- Реализация функций для вашего шелла ---
-
 void pputc(char c) {
     sys_write(1, &c, 1);
 }
